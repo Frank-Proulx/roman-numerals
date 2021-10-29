@@ -1,3 +1,48 @@
+Describe romanNumeral()
+
+Test: "It should create an array of the roman numerals"
+Code: let array = ["I", "V", "X", "L", "C", "D", "M"];
+Expected Result: Array is created
+
+Test: "It should take the number 1 and return I"
+Code: romanNumeral(1)
+Expected Result: "I"
+
+Test: "It should take a number between 1 and 3 and return an equal amount of I's"
+Code: romanNumeral(1), romanNumeral(2), romanNumeral(3)
+Expected Result: "I", "II", "III"
+
+Test: "It should take the number 5 and return V"
+Code: romanNumeral(5)
+Expected Result: "V"
+
+Test: "It should take a number between 6-8 and return "V" for 5 plus the equalivant amount of "I"s for each number over 5"
+Code: romanNumeral(6), romanNumeral(7), romanNumeral(8)
+Expected Result: "VI", "VII", "VIII"
+
+Test: "It should take the number 4 and return "IV"
+Code: romanNumeral(4)
+Expected Result: "IV"
+
+Test: 
+Code:
+Expected Result:
+
+Test:
+Code:
+Expected Result:
+
+Test:
+Code:
+Expected Result:
+
+Test: 
+Code:
+Expected Result:
+
+
+
+
 # _{Application Name}_
 
 #### By _**{List of contributors}**_
